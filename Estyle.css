@@ -1,0 +1,280 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+   
+}
+
+.list ul
+{
+    background-color:rgb(116, 112, 112);
+    height: auto;   
+}
+
+.list li a:hover
+{
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+.list li:hover
+{
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+.list ul li
+{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+dl, ol, ul 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list ul li a
+{
+    color: white;
+}
+
+article
+{
+    background-color: #ffd153;
+    width: auto;
+    height: 260px;
+    margin-top: auto;
+}
+
+.image
+{
+    position: absolute;
+    margin-top: auto;
+    margin-left: 350px;
+    height: 280px;
+}
+
+.image:hover
+{
+    transform:scale(1.05)
+}
+
+p1
+{
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: white;
+}
+
+p2
+{
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 60px;
+    color: white;
+}
+
+p3
+{
+    font-size: 40px;
+    margin-left: 90px;
+    margin-top: 200px;
+    color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:aqua;
+}
+
+p4
+{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    position: absolute;
+    /*border: 1px solid #5361ff;*/
+    margin: 30px;
+    border-radius: 25px;
+    text-align: center
+}
+
+.skill h1{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 170px;
+}
+.first li img{
+    width: 120px;
+    height: auto;
+    border-radius: 50px;
+    border-style: groove;
+}
+.first li img:hover{
+    transform: scale(1.5);
+}
+.first li{
+    display: inline;
+    list-style: none;
+   padding: 0 80px 0 80px;
+    
+}
+.first ul{
+    text-align: center;
+    margin-right: 43px;
+    margin-top: 50px;
+}
+.second li img{
+    width: 120px;
+    height: auto;
+    border-radius: 50px;
+    border-style: groove;
+}
+.second li img:hover{
+    transform: scale(1.5);
+}
+.second li{
+    display: inline;
+    list-style: none;
+    padding: 0 80px 0 80px;
+    
+}
+.second ul{
+    text-align: center;
+    margin-right: 43px;
+    margin-top: 80px;
+}
+.footer{
+    background-color: #5361ff;
+    text-align: center;
+    color: white;
+}
+.footer a{
+    color:white;
+}
+.footer a:hover{
+    color: black;
+}
+.social li a img{
+    width: 30px;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+}
+.social li a img:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    background-color: #5361ff;
+    margin-top: 50px;
+}
+.social{
+    text-align: center;
+    list-style:none;  
+}
+span ul li{
+    display: inline-flex;
+    margin: auto;
+}
+
+#thanks{
+    font-size: 15px;
+    color: white;
+}
+#mobile{
+    font-size: 15px;
+    color: white;    
+}
+#email{
+    font-size: 15px;
+    color: white;
+}
+footer div{
+    text-align: center;
+}
+ 
+@media only screen and (max-width: 880px)
+{
+    .list ul{
+        display: grid;
+        text-align: center;
+        padding: 0;
+        margin-left: -21px;
+    }
+
+    article
+    {
+        height: 300px;
+    }
+    .image{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        margin-left: 45px;
+        margin-top: 35px;
+    }
+
+    p1
+    {
+        font-size: 35px;
+        margin-left: 25px;
+        color: white;
+    }
+
+    p2
+    {
+        font-size: 35px;
+        margin-left: 50px;
+        margin-top: 200px;
+        color: white;
+    }
+
+   /* p3
+    {
+        font-size: 32px;
+        margin-left: 30px;
+        margin-top: 250px;
+    }*/
+
+    .skill h1{
+        
+        margin-top: 310px;
+    } 
+
+    
+    .first li img{
+        width: 70px;
+        border-radius: 25px;  
+    }  
+    .first li{
+       padding: 0 10px 0 10px; 
+    }
+    .first ul{
+        margin-right: 40px;
+        margin-top: 50px;
+    }
+    .second li img{
+        width: 70px;
+        border-radius: 25px;  
+    }
+    .second li{
+        padding: 0 10px 0 10px;  
+    }
+    .second ul{
+        margin-right: 40px;
+        margin-top: 50px;
+    }   
+}
