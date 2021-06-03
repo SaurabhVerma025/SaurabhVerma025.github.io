@@ -23,7 +23,8 @@ body
 {
     text-decoration: none;
     border-radius: 5px;
-    color: black;  
+    color: black;
+    
 }
 
 .list ul li
@@ -61,7 +62,7 @@ article
 {
     position: absolute;
     margin-top: auto;
-    margin-left: 350px;
+    margin-left: 395px;
     height: 280px;
 }
 
