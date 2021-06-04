@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: ;
 }
 .list ul{
     background-color: rgb(116, 112, 112);
@@ -36,36 +35,53 @@ dl, ol, ul {
 .list ul li a{
     color: white;
 }
-article{
+article
+{
     background-color: #ffd153;
     width: auto;
-    height: 400px;
+    height: 260px;
     margin-top: auto;
-    /*text-align: centre ;*/
-}
-.image1{
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 870px;
-    height: 380px;
 }
 
-p{
-    align-self: flex-end;
-    margin-left: 200px;
-    margin-top: 50px;
+.image
+{
+    position: absolute;
+    margin-top: auto;
+    margin-left: 395px;
+    height: 280px;
+}
+
+.image:hover
+{
+    transform:scale(1.05)
+}
+
+p1
+{
+    font-size: 50px;
+    margin-left: 150px;
+    line-height: 230%;
+    color: white;
+}
+
+p2
+{
+    font-size: 45px;
+    margin-left: 190px;
+    line-height: 30%;
+    color: white;
+}
+
+/*p3
+{
     font-size: 40px;
-    color: white;
-    line-height: .8;   
-}
-.para1{
-    align-self: flex-end;
-    margin-left: 250px;
-    margin-top: 50px;
-    font-size: 200px;
-    color: white;
-    line-height: .8;   
-}
+    margin-left: 90px;
+    margin-top: 200px;
+    color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:aqua;
+}*/
 
 .p{
     font-size: 25px;
@@ -103,9 +119,15 @@ main{
 
 
 .footer{
-    background-color: #5366ff;
+    background-color: #5361ff;
     text-align: center;
     color: white;
+}
+.footer a{
+    color:white;
+}
+.footer a:hover{
+    color: black;
 }
 .social li a img{
     width: 30px;
@@ -118,18 +140,9 @@ main{
 }
 
 footer{
-    background-color: #5366ff;
-    margin-top: 30px;
+    background-color: #5361ff;
+    margin-top: 50px;
 }
-
-.footer a{
-    color:white;
-}
-
-.footer a:hover{
-    color: black;
-}
-
 .social{
     text-align: center;
     list-style:none;  
@@ -138,6 +151,7 @@ span ul li{
     display: inline-flex;
     margin: auto;
 }
+
 #thanks{
     font-size: 15px;
     color: white;
@@ -154,34 +168,46 @@ footer div{
     text-align: center;
 }
 
-@media only screen and (max-width: 880px)
+@media only screen and (max-width: 768px)
 {
     .list ul{
         display: grid;
         text-align: center;
-        padding-left: 0;
+        padding: 0;
         margin-left: -21px;
     }
-    .image1{
+
+    article
+    {
+        height: 300px;
+    }
+    .image{
         position: absolute;
-        width: 280px;
-        height: 250px;
-        margin-left: 20px;
-        margin-top: 150px;
+        width: 210px;
+        height: 210px;
+        margin-left: 55px;
+        margin-top: 50px;
     }
-    .para1{
-        align-self: flex-end;
-        margin-left: 20px;
-        margin-top: 10px;
-        font-size: 80px;
+
+    p1
+    {
+        font-size: 35px;
+        margin-left: 70px;
         color: white;
-        line-height: .8;   
     }
-    
-    .skill h1{
-        
+
+    p2
+    {
+        font-size: 35px;
+        margin-left: 88px;
         margin-top: 200px;
-    }   
-    article{
-        height: 400px;
-    } 
+        color: white;
+    }
+
+   /* p3
+    {
+        font-size: 32px;
+        margin-left: 30px;
+        margin-top: 250px;
+    }*/
+} 
