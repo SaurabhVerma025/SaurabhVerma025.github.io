@@ -62,7 +62,7 @@ article
 {
     position: absolute;
     margin-top: auto;
-    margin-left: 375px;
+    margin-left: 450px;
     height: 280px;
 }
 
@@ -217,11 +217,12 @@ footer div{
     article
     {
         height: 300px;
+        width: auto;
     }
     .image{
         position: absolute;
-        width: 210px;
-        height: 210px;
+        width: 205px;
+        height: 205px;
         margin-left: 55px;
         margin-top: 50px;
     }
