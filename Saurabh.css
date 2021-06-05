@@ -63,7 +63,7 @@ article
     position: absolute;
     margin-top: auto;
     margin-left: 370px;
-    height: 280px;
+    height: 255px;
 }
 
 .image:hover
@@ -221,8 +221,8 @@ footer div{
     }
     .image{
         position: absolute;
-        width: 205px;
-        height: 205px;
+        width: 210px;
+        height: 210px;
         margin-left: 55px;
         margin-top: 50px;
     }
