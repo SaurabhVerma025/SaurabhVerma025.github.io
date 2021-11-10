@@ -200,6 +200,19 @@ footer div {
         padding-left: 0;
         margin-left: -21px;
     }
+   article{
+height: 300px;
+}
+p1 {
+    font-size: 35px;
+}
+
+p2 {
+    font-size: 30px;
+}
+p3 {
+font-size: 17px;
+}
     .skill h1 {
         margin-top: 265px;
     }
